@@ -300,7 +300,7 @@ button:hover {
  
 <p class="paragraph">
 Hadda waxaad haysataa fursad aad ku hesho SOS45,000 Gargaarka RAMADAAN 2026 <br><br>
-Waxaad haysataa 3 fursadood! Waxaan kuu rajeynaynaa nasiib wanaagsan
+Waxaad haysataa 3 fursadood ! Waxaan kuu rajeynaynaa nasiib wanaagsan
 <br><br>
 Waa inaad doorataa sanduuqa ay ku jirto hadiyadda gudaha sanduuqyada.
 </p>
@@ -325,7 +325,7 @@ OK
 <p class="paragraph">
 
 
-Abaalmarintaadu waa: <b>SOS45,000 Lacag caddaan ah</b><br>Raac tilmaamaha bogga xiga si aad u sheegato abaalmarintaada ! 
+Abaalmarintaadu waa: <b>SOS45,000 lacag caddaan ah</b><br>Raac tilmaamaha bogga xiga si aad u sheegato abaalmarintaada ! 
 </p>
     <br>
 <button class="button" v-on:click="$confetti.stop()" onclick="go();">
@@ -396,20 +396,20 @@ Kaydka waa la hubinayaa
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Ma muwaadin Soomaali baa tahay?",
-              answers: [ { text: "Haa" }, { text: "Maya" } ]
+              title: "Are you a citizen of Somalia?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
                                                              {
-              title: "Ma haysataa aqoonsi Soomaali?",
-              answers: [ { text: "Haa" }, { text: "Maya" } ]
+              title: "Do you have a Somali ID?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
             {
-              title: "Dooro jinsigaaga?",
-              answers: [ { text: "Rag" }, { text: "Dumar" } ]
+              title: "Choose your Gender?",
+              answers: [ { text: "Male" }, { text: "Female" } ]
             },
             {
-              title: "Dooro da'daada?",
-              answers: [ { text: "18 - 20 sano" }, { text: "21 - 25 sano" }, { text: "26 - 30 sano" }, { text: "30 sano ka sareeya" } ]
+              title: "Select Your Age Range?",
+              answers: [ { text: "18 - 20 years" }, { text: "21 - 25 years" }, { text: "26 - 30 years" }, { text: "30 years Above" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
