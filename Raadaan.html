@@ -396,20 +396,20 @@ Kaydka waa la hubinayaa
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Are you a citizen of Somalia?",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "Ma tahay muwaadin Soomaaliyeed?",
+              answers: [ { text: "Haa" }, { text: "Maya" } ]
             },
                                                              {
               title: "Do you have a Somali ID?",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              answers: [ { text: "Haa" }, { text: "Maya" } ]
             },
             {
-              title: "Choose your Gender?",
-              answers: [ { text: "Male" }, { text: "Female" } ]
+              title: "Dooro jinsigaaga?",
+              answers: [ { text: "Lab" }, { text: "Dheddig" } ]
             },
             {
-              title: "Select Your Age Range?",
-              answers: [ { text: "18 - 20 years" }, { text: "21 - 25 years" }, { text: "26 - 30 years" }, { text: "30 years Above" } ]
+              title: "Dooro da’daada u dhexeysa?",
+              answers: [ { text: "18 – 20 sano" }, { text: "21 - 25 sano" }, { text: "26 - 30 sano" }, { text: "30 sano Ka sarreeya" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
